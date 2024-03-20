@@ -12,5 +12,5 @@ class Usuario:
         for tarea in self.tareas:
             if tarea.estaLista():
                 print(f"[X] {tarea.obtenerNombre()}" )
-            else: <<<<<<< Elimina esta
-                print(f"[ ] {tarea.obtenerNombre()}" ) <<<<< y esta
+#            else: <<<<<<< Elimina esta
+#                print(f"[ ] {tarea.obtenerNombre()}" ) <<<<< y esta
